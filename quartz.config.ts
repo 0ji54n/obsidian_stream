@@ -1,6 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
+
 /**
  * Quartz 4.0 Configuration
  *
@@ -28,13 +29,13 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          light: "#f5e9d7",
+          lightgray: "#a39c91",
+          gray: "#57534d",
+          darkgray: "#363330",
+          dark: "#171615",
+          secondary: "#807994",
+          tertiary: "#a1828d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
